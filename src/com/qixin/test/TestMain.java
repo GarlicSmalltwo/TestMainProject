@@ -10,8 +10,12 @@ import java.util.Map.Entry;
 
 public class TestMain {
          public static void main(String[] args) {
-	               String str="sdfjklsajfoiwernjkwnerkddddddddddddwndfs";
-	               count(str);
+		 System.out.print("此处做一些修改----------------------------------");
+		       
+	               String str1="sdfjklsajfoiwernjkwnerkddddddddddddwndfs";
+		       String str2="你我他它她你你你你你你你你你我我我我我我他他他他他";
+	               count(str1);
+		       count(str2);
         }
          
          public static void count(String str) {
